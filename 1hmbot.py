@@ -38,3 +38,4 @@ async def start (message:types.Message):
         await message.reply("не правильно вы отгадали")
         await message.answer_photo("https://media.makeameme.org/created/sorry-you-lose.jpg")
 executor.start_polling(dp)
+
